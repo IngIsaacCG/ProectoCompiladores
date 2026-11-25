@@ -1,0 +1,4 @@
+// Error lexico: constantes numericas mal formadas
+int a = 12abc;
+float b = 3.14.15;
+int c = 7;

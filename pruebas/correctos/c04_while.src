@@ -1,0 +1,12 @@
+// Prueba 4: estructura repetitiva while (con bloque y con una sola sentencia)
+int n = 10;
+int suma = 0;
+while (n > 0) {
+    suma = suma + n;
+    n = n - 1;
+}
+while (suma >= 100) suma = suma / 2;
+while (n <= 3 || suma != 7) {
+    n = n + 1;
+    suma = suma - 1;
+}

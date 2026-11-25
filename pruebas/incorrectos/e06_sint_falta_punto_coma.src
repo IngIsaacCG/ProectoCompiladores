@@ -1,0 +1,4 @@
+// Error sintactico: falta ';' al final de una declaracion
+int x = 5
+int y = 6;
+x = x + y;

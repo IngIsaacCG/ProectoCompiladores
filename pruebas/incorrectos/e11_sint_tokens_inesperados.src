@@ -1,0 +1,6 @@
+// Error sintactico: tokens inesperados en distintos contextos
+int a = 1;
+a = 2 3;
+a = 4);
+if (a > 1) ;
+for (i = 0; i < 3) a = 1;

@@ -1,0 +1,12 @@
+// Prueba 2: asignaciones y expresiones aritmeticas (precedencia, parentesis, unarios)
+int a = 10;
+int b = 3;
+int r;
+r = a + b * 2;
+r = (a + b) * 2;
+r = a / b - 1 % 2;
+r = -a + -(b * 2);
+/* comentario
+   de varias lineas */
+r = ((a + 1) * (b - 1)) / 2;   // comentario al final de la linea
+r = - - a;

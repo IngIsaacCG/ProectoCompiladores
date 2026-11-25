@@ -1,0 +1,14 @@
+# Errores que DEBE reportar el analizador en cada programa incorrecto.
+# Formato:  archivo: tipo L:C, tipo L:C ...     (tipo = lexico | sintactico)
+e01_lex_caracter_invalido.src: lexico 3:8, lexico 4:6
+e02_lex_numero_mal_formado.src: lexico 2:9, lexico 3:11
+e03_lex_operador_incompleto.src: lexico 4:7, lexico 7:7
+e04_lex_comentario_sin_cerrar.src: lexico 2:1
+e05_sint_falta_parentesis.src: sintactico 1:12
+e06_sint_falta_punto_coma.src: sintactico 3:1
+e07_sint_llave_sin_cerrar.src: sintactico 4:15
+e08_sint_operando_faltante.src: sintactico 4:9, sintactico 5:5, sintactico 6:14
+e09_sint_if_sin_parentesis.src: sintactico 3:4, sintactico 6:1
+e10_sint_declaraciones_invalidas.src: sintactico 2:5, sintactico 3:7, sintactico 4:8, sintactico 5:7
+e11_sint_tokens_inesperados.src: sintactico 3:7, sintactico 4:6, sintactico 5:12, sintactico 6:18
+e12_mixto_lexico_y_sintactico.src: lexico 5:23, sintactico 4:14

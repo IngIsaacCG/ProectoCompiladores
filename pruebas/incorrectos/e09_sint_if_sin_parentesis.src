@@ -1,0 +1,6 @@
+// Error sintactico: if sin parentesis y else huerfano
+int x = 1;
+if x > 0 {
+    x = 2;
+}
+else x = 3;

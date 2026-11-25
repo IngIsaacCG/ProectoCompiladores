@@ -1,0 +1,7 @@
+// Prueba 1: declaraciones de variables (int y float), con y sin inicializacion
+int a;
+int b, c, d;
+float x = 3.14;
+float y = 2.5e3, z;
+int contador = 0;
+int suma = 1 + 2, otra = suma * 3;

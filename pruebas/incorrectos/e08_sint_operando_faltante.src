@@ -1,0 +1,6 @@
+// Error sintactico: operando faltante en expresiones
+int a = 4;
+int b;
+b = a + ;
+b = * 3;
+b = a + (2 * );

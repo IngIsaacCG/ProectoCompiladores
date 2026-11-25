@@ -1,0 +1,5 @@
+// Error sintactico: declaraciones mal formadas
+int = 5;
+float ;
+int a, ;
+int b c;

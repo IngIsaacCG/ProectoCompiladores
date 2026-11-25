@@ -1,0 +1,16 @@
+// Prueba 3: condicionales if, if-else, else if, operadores logicos y relacionales
+int edad = 20;
+int nota = 85;
+if (edad >= 18) {
+    nota = nota + 1;
+}
+if (nota > 90) {
+    edad = 1;
+} else if (nota > 70 && edad != 0) {
+    edad = 2;
+} else {
+    edad = 3;
+}
+if (!(nota == 0 || edad < 0)) edad = edad + 1;
+// else colgante: se asocia con el if mas cercano
+if (edad > 0) if (nota > 0) nota = 1; else nota = 2;

@@ -1,0 +1,7 @@
+// Error lexico: operadores '&' y '|' sueltos (el lenguaje solo tiene && y ||)
+int a = 1;
+int b = 0;
+if (a & b) {
+    a = 2;
+}
+if (a | b) a = 3;

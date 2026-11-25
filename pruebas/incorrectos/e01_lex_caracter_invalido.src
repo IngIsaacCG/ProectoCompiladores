@@ -1,0 +1,4 @@
+// Error lexico: caracteres que no pertenecen al alfabeto del lenguaje
+int x;
+x = 10 @;
+int y$ = 5;
