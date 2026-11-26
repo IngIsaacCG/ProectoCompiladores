@@ -1,2 +1,0 @@
-// Prueba 8: un programa sin sentencias (solo comentarios) tambien es valido
-/* la gramatica permite cero sentencias:  programa ::= { sentencia } EOF */
